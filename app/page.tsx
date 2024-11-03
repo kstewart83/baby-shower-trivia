@@ -24,7 +24,6 @@ export default function Home() {
         <input type="submit" value="Submit"/>
       </form>
       <Suspense>
-        {/* @ts-expect-error Async Server Component */}
         <ViewCounter />
       </Suspense>
     </main>

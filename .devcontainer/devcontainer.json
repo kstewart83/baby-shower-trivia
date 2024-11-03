@@ -1,0 +1,15 @@
+// See https://containers.dev/implementors/json_reference/ for configuration reference
+{
+	"name": "Baby Shower Trivia",
+	"dockerComposeFile": "compose.yml",
+	"workspaceFolder": "/workspaces",
+	"service": "devcontainer",
+	"remoteUser": "node",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bradlc.vscode-tailwindcss"
+			]
+		}
+	}
+}

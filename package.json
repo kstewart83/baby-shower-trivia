@@ -1,9 +1,10 @@
 {
-  "name": "vercel-kv-redis-starter",
-  "repository": "https://github.com/vercel/examples.git",
+  "name": "baby-shower-trivia",
+  "repository": "https://github.com/kstewart83/baby-shower-trivia",
   "license": "MIT",
   "version": "0.0.0",
   "private": true,
+  "packageManager": "^pnpm@9.0.0",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

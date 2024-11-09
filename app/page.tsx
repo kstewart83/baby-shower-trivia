@@ -11,9 +11,10 @@ export default function Home() {
     <main className="relative flex min-h-screen flex-col items-center justify-center">
       <h1 className="underline">Baby Shower Trivia</h1>
       <Image 
+        className="dark:bg-slate-600 p-5 my-4 rounded-md"
         src="/baby-bassinet-cradle-bed.png" 
-        width={200}
-        height={200}
+        width={300}
+        height={300}
         alt='bassinett'
       />
       <form>

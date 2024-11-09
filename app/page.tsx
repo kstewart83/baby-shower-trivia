@@ -23,9 +23,10 @@ export default function Home() {
         <input id="last-name" type="text"/>      
         <input type="submit" value="Submit"/>
       </form>
-      {/* <Suspense>
+      <Suspense>
+        {/*@ts-ignore*/}
         <ViewCounter />
-      </Suspense> */}
+      </Suspense>
     </main>
   )
 }

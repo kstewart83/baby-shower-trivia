@@ -8,7 +8,7 @@ export const dynamic = 'force-dynamic'
 export default function Home() {
   return (
     <main className="relative flex min-h-screen flex-col items-center justify-center">
-      <h1 className="underline">Baby Shower Trivia</h1>
+      <h1 className="underline">K & K Baby Shower</h1>
       <Image 
         className="dark:bg-slate-600 p-5 my-4 rounded-md"
         src="/baby-bassinet-cradle-bed.png" 

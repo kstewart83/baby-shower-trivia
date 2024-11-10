@@ -16,7 +16,7 @@ const SigninForm = () => {
     <input id="first-name" type="text" name="firstName" onChange={(e) => setFirstName(e.target.value)}/>
     <label htmlFor="last-name">Last Name</label>
     <input id="last-name" type="text" name="lastName" onChange={(e) => setLastName(e.target.value)}/>      
-    <input type="submit" value="Submit"/>
+    <input type="submit" value="Sign In"/>
   </form>
 };
 

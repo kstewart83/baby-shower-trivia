@@ -3,8 +3,8 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 
 export const metadata = {
-  title: 'Baby Shower Trivia',
-  description: 'A fun trivia game for a baby shower',
+  title: 'K and K Baby Shower',
+  description: 'A fun time to celebrate Kyle and Kristen',
 }
 
 const inter = Inter({

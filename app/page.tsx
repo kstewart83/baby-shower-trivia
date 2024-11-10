@@ -1,8 +1,7 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import ViewCounter from '@/components/view-counter'
 import { Suspense } from 'react'
-import ExpandingArrow from '@/components/expanding-arrow'
+import SigninForm from '@/components/signin-form'
 
 export const dynamic = 'force-dynamic'
 
@@ -17,13 +16,7 @@ export default function Home() {
         height={300}
         alt='bassinett'
       />
-      <form>
-        <label htmlFor="first-name">First Name</label>
-        <input id="first-name" type="text"/>
-        <label htmlFor="last-name">Last Name</label>
-        <input id="last-name" type="text"/>      
-        <input type="submit" value="Submit"/>
-      </form>
+      <SigninForm />
       <Suspense>
         {/*@ts-ignore*/}
         <ViewCounter />
